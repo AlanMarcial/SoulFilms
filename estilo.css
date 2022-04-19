@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+h1 {
+    text-align: center;
+    background-image: url(https://s03.s3c.es/imag/_v0/770x420/a/b/3/600x400_La-orilla-del-mar-con-el-sol-poniendose-al-fondo-iStock.jpg);
+    color: white ;
+    padding: 20px;
+
+}
+nav ul {
+    background-color: gray;
+    width: 100%;
+    list-style-type: none;
+    text-align: center
+    ;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;   
+    
+}
+body {
+    height: 150px;
+    background-image: url(https://cdn0.bodas.com.mx/article-real-wedding/193/3_2/1280/jpg/1232729.webp);
+    text-align: center;
+    color: white;
+}
+.secciones {
+    font-size: 21px;
+}
+.fotoXV {
+    
+}
+
+    
