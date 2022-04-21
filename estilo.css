@@ -1,3 +1,11 @@
+/* Medidas css:
+    absolutas:
+    px,cm, 
+    relativas:
+    em, rem, vh,vw, %
+
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -34,10 +42,31 @@ body {
     color: white;
 }
 .secciones {
-    font-size: 21px;
+    padding: 3em;
+    
 }
+
 .fotoXV {
     
 }
 
+.titulo2{
+    font-size: 60px;
+
+}
+.copies{
+    font-size: 30px;
+}
+
+.ejemplo{
+    width: 100vw;
+    height: 300px;
+   background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .ejemplo{
+        background-color: green;
+    }
     
+  }  
